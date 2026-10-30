@@ -8,7 +8,7 @@ esphome:
   name: ${name}
   friendly_name: ${friendly_name}
   comment: ${friendly_name} S31 Wifi Power Switch
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
   on_boot:
     then:
       - delay: 10s
